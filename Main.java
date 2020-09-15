@@ -10,22 +10,18 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // Made a constant that odd numbers = 1
-    final int odd = 1;
+    // asking for the two integers
     Scanner input = new Scanner(System.in);
-    // Ask for an interger
-    System.out.println("Please enter an integer:");
+   System.out.println("Please enter an integer");
     int num = input.nextInt();
-    // calculate the remainder
-int even = num % 2;
-// if statement that will tell you if its odd or not
-     if (even >= odd){
-      System.out.println(num + " is an odd number");
+    System.out.println("Please enter another integer");
+    int num2 = input.nextInt();
+    // if statement that says which one is bigger
+    if (num > num2){
+      System.out.println("The biggest number is " + num);
     } else {
-      System.out.println(num + " is an even number");
+      System.out.println("The biggest number is " + num2);
     }
-
-
-
+    
   }
 }

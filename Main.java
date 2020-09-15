@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * Determines if a given number is odd or even
+ * Determines which number is larger than another
  * @jacoe0850 
  */
 public class Main {

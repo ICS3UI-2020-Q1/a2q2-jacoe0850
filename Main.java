@@ -12,7 +12,7 @@ public class Main {
   public static void main(String[] args) {
     // asking for the two integers
     Scanner input = new Scanner(System.in);
-   System.out.println("Please enter an integer");
+    System.out.println("Please enter an integer");
     int num = input.nextInt();
     System.out.println("Please enter another integer");
     int num2 = input.nextInt();
